@@ -232,9 +232,9 @@ class Ui_InsaneLoader(object):
             print('Ошибка, не удаётся соединится с базой данных')
             time.sleep(5)
             os._exit(1)
-
-    LOGIN_URL = "https://gist.githubusercontent.com/kringemega/651d0eb93f1604cea1c73ca69eca92a8/raw/74efb5f28e14ae9ed8ddb1d466fc9968ed337b42/gistfile1.txt"
-    PASSWORD_URL = "https://gist.githubusercontent.com/kringemega/1c77df5fc776def2c81611b537f57798/raw/c2422e2e83072d247a2bc6cdfcd980f9d2ddbe49/gistfile1.txt"
+## гит на логин и пароль
+    LOGIN_URL = "ваш гит"
+    PASSWORD_URL = "ваш гит"
 
     def check_data(self, input_value, url, data_type):
         try:
